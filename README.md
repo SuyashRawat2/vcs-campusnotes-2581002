@@ -56,3 +56,33 @@ Examples:
 - feat: add new notes functionality
 - fix: resolve note validation issue
 - docs: improve project documentation
+## Contribution Workflow
+
+1. Fork the repository on GitHub.
+2. Clone your fork locally.
+3. Add the original repository as upstream:
+
+   git remote add upstream https://github.com/OWNER/REPOSITORY.git
+
+4. Create a feature branch.
+5. Make changes and test the application.
+6. Commit using Conventional Commit messages.
+7. Push your feature branch.
+8. Open a Pull Request.
+
+## Manual Testing
+
+- Create a new note.
+- Search for a note by title.
+- Filter notes by subject.
+- Pin and unpin notes.
+- Edit and delete notes.
+- Refresh the browser and verify saved notes.
+
+## Conventional Commit Examples
+
+- feat: add notes functionality
+- fix: resolve validation issue
+- docs: update documentation
+- refactor: simplify note rendering
+- chore: update project configuration
