@@ -33,3 +33,26 @@ Notes are stored locally in the browser under the key `campusnotes-v1`. They do 
 ## Version control
 
 This folder intentionally does not include a `.git` directory. Initialize Git in the extracted folder and connect it to your own GitHub repository.
+## Contribution Workflow
+
+Contributors can improve CampusNotes by following these steps:
+
+1. Fork the repository on GitHub.
+2. Clone your fork to the local system.
+3. Add the original repository as an upstream remote.
+4. Create a separate feature branch for each improvement.
+5. Make the required changes and test them.
+6. Commit changes using Conventional Commit messages.
+7. Push the feature branch to GitHub.
+8. Open a Pull Request against the original repository's main branch.
+
+## Commit Message Convention
+
+Use the following format:
+
+type: short description
+
+Examples:
+- feat: add new notes functionality
+- fix: resolve note validation issue
+- docs: improve project documentation
