@@ -1,0 +1,6 @@
+CampusNotes Collaboration Test
+
+Student: Suyash Rawat
+URN: 2581002
+
+This file demonstrates remote repository collaboration.
